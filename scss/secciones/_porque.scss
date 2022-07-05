@@ -1,0 +1,43 @@
+.background {
+  @extend %cFlex;
+  flex-direction: column;
+  width: 100%;
+  background-color: black;
+  color: rgb(186, 186, 186);
+
+  .tituloPorque {
+    color: rgba(218, 228, 29, 0.819);
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 7rem;
+    padding-bottom: 4rem;
+  }
+  .table {
+    font-size: larger;
+    color: rgb(186, 186, 186);
+  }
+  h2 {
+    padding-top: 7%;
+    font-size: 3rem;
+    color: rgba(218, 228, 29, 0.819);
+  }
+  .seccion3 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 6%;
+    padding-left: 12%;
+    padding-right: 12%;
+    
+    }
+    .ultimoTitulo {
+        font-family: italic;
+        @include bold(larger, bold);
+        padding-bottom: 3%;
+        font-size: 1.8rem;
+        color: rgba(218, 228, 29, 0.819);
+        padding-top: 5rem;
+        padding-bottom: 3rem;  
+}
+}
