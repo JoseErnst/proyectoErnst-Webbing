@@ -1,0 +1,72 @@
+.footer {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: green;
+    height: 25vh;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: Open Sans, Arial, sans-serif;
+    background-image: linear-gradient(to bottom, rgba(218, 228, 29, 0.819) 25%, rgba(0, 0, 0, 0.975) 100%);    height: 25%;
+
+}
+
+.form {
+    list-style: none;
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+}
+
+
+.liFooter {
+    padding-top: 1.5vh;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    &:hover {
+    color: white;
+    transform: scale(1.15);
+    padding-left: .5rem;
+    }
+}
+
+.midfoott {
+    @extend %cFlex;
+    flex-direction: column;
+    color: rgb(6, 4, 4);
+    padding-top: 1.5vh;
+    list-style: none;
+    font-size: 35px;
+    &:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    }
+}
+
+.formFoot {
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    margin-right: 1rem;
+    margin-top: 15px;
+    list-style: none;
+}
+
+
+.liFoot {
+    margin-right: 1rem;
+    margin-top: 15px;
+}
+
+.liFoott {
+    background-color: rgb(252, 252, 252);
+    border-radius: 5rem;
+    margin-right: 1rem;
+    margin-top: 5px;
+    &:hover {
+    transform: scale(1.1);
+    background-color: rgba(255, 255, 255, 0.593);
+    }
+}

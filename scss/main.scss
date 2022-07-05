@@ -3,8 +3,15 @@
     margin: 0%;
 }
 /*Las variables se incertan arriba de todo*/
-@import './secciones/header';
 @import './variables/flexdirec';
+@import './secciones/header';
+@import './secciones/footer';
+@import './secciones/index';
+@import './secciones/porque';
+@import './secciones/contacto';
+@import './secciones/portfolio';
+@import './secciones/servicios';
+
 
 
 @media (max-width: 600px) {
