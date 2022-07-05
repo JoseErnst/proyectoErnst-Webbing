@@ -1,0 +1,52 @@
+.mainForm {
+  background-color: black;
+  color: rgb(186, 186, 186);
+  text-align: center;
+  .tituloForm {
+    font-size: 2rem;
+    color: rgba(218, 228, 29, 0.819);
+    padding-top: 4rem;
+  }
+}
+.sectionForm{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.formulario {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  background-color: rgba(35, 33, 33, 0.72);
+  width: 60%;
+  margin: auto;
+  label{
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  input {
+    padding: 1rem;
+    border-radius: 30px;
+    padding-right: 3rem;
+    margin: 1rem;
+    width: 50%;
+    &:hover {
+        transform: scale(1.2);
+        transition: 0.3s;
+        font-weight: bold;
+        background-color:rgba(209, 215, 101, 0.953);
+        color: black;
+      }
+  }
+    .buuton{
+        width: 25%;
+        &:hover{
+        background-color: rgba(218, 228, 29, 0.819)
+        }
+        margin-bottom: 4rem;
+        
+      }
+  }
+
+
