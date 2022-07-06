@@ -1,0 +1,136 @@
+.serviciosMain {
+  
+  .productosWeb {
+    width: 100%;
+    padding-top: 2%;
+    width: 100%;
+    background-color: black;
+    .productos-titulos {
+      width: 100%;
+      font-size: 45px;
+      text-align: center;
+      text-transform: uppercase;
+      color: rgba(209, 215, 101, 0.953);
+    }
+    .productos-conteiner {
+      width: 100%;
+      height: 87%;
+      display: flex;
+      flex-flow: row;
+      .pack {
+        width: 230px;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        display: flex;
+        flex-flow: row wrap;
+        padding-bottom: 15px;
+        border: 1px solid rgba(209, 215, 101, 0.953);
+        border-radius: 8px;
+
+        .pack-div {
+          padding-top: 5px;
+          padding-bottom: 15px;
+          width: 100%;
+          margin: auto;
+          height: 10vh;
+          border-top-left-radius: 8px;
+          border-top-right-radius: 8px;
+          border-bottom: 1px solid rgba(209, 215, 101, 0.953);
+
+          .pack-tit {
+            text-align: center;
+            color: rgba(209, 215, 101, 0.953);
+            font-size: 30px;
+          }
+        }
+        .pack-ul {
+          list-style-type: none;
+          margin: auto;
+          width: 80%;
+          .pack-li {
+            width: 100%;
+            text-align: left;
+            font-weight: 600;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            color: rgb(162, 162, 162);
+          }
+          .pack-li_precio {
+            text-align: center;
+          }
+        }
+        &:hover {
+          .pack-tit {
+            transform: scale(1.3);
+            transition: 0.5s;
+          }
+          .pack-li_precio {
+            transform: scale(1.5);
+            transition: 0.5s;
+          }
+        }
+      }
+    }
+  }
+}
+//termino lo que es desarrollo web
+
+.sectionCreatividades{
+    background-color: black;
+    @extend %cFlex;
+    flex-direction: column;
+    
+    .divC{
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    }
+    .tituloC{
+        color:rgba(209, 215, 101, 0.953) ;
+        font-size: 3rem;
+        padding-top: 4rem;
+    }
+    .textoC{
+        color: rgb(162, 162, 162);
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+    .accordion{
+        padding-bottom: 5rem;
+    }
+    .accordion-button{
+        color: rgba(209, 215, 101, 0.953);
+        background-color: black;
+        font-family: sans-serif;
+        border-color: rgba(209, 215, 101, 0.953);
+        
+    }
+    .accordion-body{
+        color: rgb(162, 162, 162); 
+        background-color: black;
+    }
+    //CAMBIA DE SECCION---------------
+
+}
+.sectionAnalisis{
+    background-color: black;
+    
+    
+    .divA{
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    }
+    .tituloA{
+        color:rgba(209, 215, 101, 0.953) ;
+        font-size: 3rem;
+        padding-top: 1rem;
+    }
+    .textoA{
+        color: rgb(162, 162, 162);
+        padding-top: 1rem;
+        padding-bottom: 5rem;
+    }
+}
+
