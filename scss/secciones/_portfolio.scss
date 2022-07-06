@@ -1,0 +1,65 @@
+.portfolio {
+  
+    .section1 {
+      width: 100%;
+      padding-top: 2%;
+      width: 100%;
+      background-color: black;
+      .tituloP {
+        width: 100%;
+        font-size: 55px;
+        text-align: center;
+        color: rgba(209, 215, 101, 0.953);
+        padding-bottom: 1.5rem;
+      }
+      .primeraFila {
+        width: 100%;
+        height: 87%;
+        display: flex;
+        flex-flow: row;
+        .landing {
+          width: auto;
+          margin: auto;
+          display: flex;
+          flex-flow: row wrap;
+          border: 1px solid rgba(209, 215, 101, 0.953);
+          border-radius: 8px;
+  
+          .pack-div {
+            padding-top: 5px;
+            padding-bottom: 15px;
+            width: 100%;
+            margin: auto;
+            height: 10vh;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            border-bottom: 1px solid rgba(209, 215, 101, 0.953);
+  
+            .pack-tit {
+              text-align: center;
+              color: rgba(209, 215, 101, 0.953);
+              font-size: 30px;
+            }
+          }
+          .imgP {
+            list-style-type: none;
+            margin: auto;
+            width: 80%;
+            .pack-li_precio {
+              text-align: center;
+            }
+          }
+          &:hover {
+            .pack-tit {
+              transform: scale(1.3);
+              transition: 0.5s;
+            }
+            .imgP {
+              transform: scale(1.1);
+              transition: 0.5s;
+            }
+          }
+        }
+      }
+    }
+  }
